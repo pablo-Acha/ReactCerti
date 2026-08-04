@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <caption> Esto es un tabla</caption>
+        <thead>
+            <tr><th>llave</th> <th>valor</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Universidad: </td><td>UPB</td> </tr>
+            <tr><td>Ciudad: </td><td>La Paz</td> </tr>
+        </tbody>
+    </table>
+
+    <p>un parrafo</p>
+    <a href="google.com">google</a>
+    <p>un parrafo</p>
+    <p>un parrafo</p>
+    <!-- unicos -->
+    <p id="unicos"> parrafo con un id unico</p>
+    <p class="grupo1">Lorem</p>
+    <!-- varios grupos -->
+    <p class="grupo1 grupo2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa enim tempora repudiandae autem officia alias reprehenderit distinctio perferendis magnam amet nostrum repellendus esse laudantium, vel at nihil odit temporibus sit!</p>
+    <!-- formularios -->
+    <br>
+    <form >
+        <!-- contiene la descripcion de la entrada -->
+        <label for="nombre">nombre</label> 
+        <input name="nombre" id="nombre" type="text">
+    </form>
+    <br>
+    <form>
+        <label for="correo">Correo</label>
+        <input id="correo" name="correo" type="email">
+
+        <label for="telefono">Teléfono</label>
+        <input id="telefono" name="telefono" type="tel">
+    </form>
+
+    <br>
+
+    <form>
+        <label for="edad">Edad</label>
+        <input id="edad" name="edad" type="number">
+        <br>
+        <label for="nacimiento">Nacimiento</label>
+        <input id="nacimiento" name="nacimiento" type="date">
+        <br>
+        <label for="contra">contraseña</label>
+        <input id="contra" name="contra" type="password">
+        <br>
+        <label for="codigo">codigo</label>
+        <input type="codigo" name="codigo" type="texto" inputmode="numeric" maxlength="6" pattern="[0-9]{6}">
+    </form>
+
+</body>
+</html>
