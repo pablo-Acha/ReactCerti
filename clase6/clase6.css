@@ -1,0 +1,10 @@
+#principal{
+    background-color: magenta;
+}
+p{
+    background-color: grey;
+}
+h1,p{
+    background-color: gray;
+}
+
