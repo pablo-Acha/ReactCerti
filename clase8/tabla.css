@@ -1,0 +1,11 @@
+td{
+    border: 2px solid gray;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    color: transparent;
+
+}
+td:hover{
+    color: blue;
+}

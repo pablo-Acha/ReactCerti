@@ -1,0 +1,15 @@
+.mensaje{
+    background-color: red;
+    color: blue;
+    height: 100px;
+    font-family: system-ui, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.mensaje:hover{
+    background-color: lightblue;
+    
+}
+input:focus{
+    background-color: blue;
+}
