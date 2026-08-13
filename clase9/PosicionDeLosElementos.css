@@ -1,0 +1,31 @@
+.normal{
+    width: 12rem;
+    padding: 1rem;
+    background-color: gray;
+    border: 2px solid black;
+    position: static;
+}
+.referencia{
+    width: 12rem;
+    border: 2px solid black;
+    padding: 1rem;
+    top: 2rem;
+    background-color: lightblue;
+    position:relative;
+}
+.tarjeta{
+    width: 12rem;
+    border: 2px solid black;
+    padding: 1rem;
+    top: 2rem;
+    background-color: lightblue;
+    /* position: relative; */
+    top:5rem;
+}
+.etiqueta{
+    background-color: orange;
+    top: 10rem;
+    left: 0.5rem;
+    padding: 0.5rem;
+    position: absolute;
+}
