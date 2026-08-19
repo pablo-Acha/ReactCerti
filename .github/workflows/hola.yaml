@@ -12,6 +12,8 @@ jobs:
         uses: actions/checkout@v4 
       - name: En que carpeta estoy
         run: pwd
+      - name: Contenido de la carpeta
+        run: ls -la
   
 
     
