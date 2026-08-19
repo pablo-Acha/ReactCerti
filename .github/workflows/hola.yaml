@@ -14,7 +14,8 @@ jobs:
         run: pwd
       - name: Contenido de la carpeta
         run: ls -la
-      - name: Instalr node
+      - name: Instalar node
         uses: actions/setup-nodev@4
-
+      - name: verificar node
+        run: node --version
     
